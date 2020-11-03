@@ -22,5 +22,14 @@ For this task it was used a library to scrape the data from the youtube site: [Y
 
 In the second step,  processing step consist on cleaning the data and analysing the features. After looking for the columns in the dataset was set only 3 of this columns to build the model. the title of the video, the quantity of views on this videos and the date that was upload the video. The dataset label was set by me, looking for each video title and putting one on the video that i like and zero if not, as a classification task.
 
-To Analyse the data was used the pandas library. In this stage was created a new feature to count the number of views per day. Besides that was ploted a graph about the time each video was upload to see the distribution of the video by the time. With this plot was abled to split the data into training set and validation set, where the proportion was approximaly 64% to training set and 36% to validation set.
+To Analyse the data was used the pandas library. In this stage was created a new feature to count the number of views per day. Besides that was ploted a graph about the time each video was upload to see the distribution of the video by the time. With this plot was abled to split the data into training set and validation set, where the proportion was approximaly 64% to training set and 36% to validation set. If only this informations was build the baseline for the model using a simple decision tree model. A baseline is a simple model where we have this model's metrics as our start point, where we need to upgrade this metrics using other models or tunning the hyperparameters or adding/dropping features. The metrics used are the Roc Auc Score where this metric compute the area under the curve , and the average precision score.
+
+To upgrade the model was used the title was a features using a bag-of-words model. The BoW is a way of extracting features from texts. It's representantion of text that describes the occurence of words within a document. Also was choose the TF-IDF (Term Frequency Inverse Document Frequency)  measure, it measure the occurencie of words in the vocabulary, penalizing the words with high frequencies.
+
+
+### *Modeling and tuning the model*
+
+
+
+
 
