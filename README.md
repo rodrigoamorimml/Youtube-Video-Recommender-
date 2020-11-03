@@ -6,9 +6,9 @@ The final result can be see it at: [Youtube Video Recommender](https://powerful-
 
 
 The project can be divided in four steps:
-- [ ]  <a href="#*Scrapping the Data*">*Scrapping the Data*</a>
+- [ ] <a href="#*Scrapping the Data*">*Scrapping the Data*</a>
 - [ ] <a href="#*Processing the Data.*">*Processing the Data.*</a>
-- [ ] <a href="#*Modeling and tuning the model.*">*Modeling and tuning the model.*</a>
+- [ ] <a href="#Modeling and tuning the model.">Modeling and tuning the model.</a>
 - [ ] *Deploy the model.*
 
 
@@ -27,7 +27,7 @@ To Analyse the data was used the pandas library. In this stage was created a new
 To upgrade the model was used the title was a features using a bag-of-words model. The BoW is a way of extracting features from texts. It's representantion of text that describes the occurence of words within a document. Also was choose the TF-IDF (Term Frequency Inverse Document Frequency)  measure, it measure the occurencie of words in the vocabulary, penalizing the words with high frequencies.
 
 
-### *Modeling and tuning the model*
+### Modeling and tuning the model.
 
 
 
