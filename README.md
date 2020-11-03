@@ -5,12 +5,12 @@
 The final result can be see it at: [Youtube Video Recommender](https://powerful-plains-65681.herokuapp.com/)
 
 
-<a href="#Modeling and tuning the model.">Modeling and tuning the model.</a>
+
 
 The project can be divided in four steps:
-- [ ] <a href="#*Scrapping the Data*">*Scrapping the Data*</a>
-- [ ] <a href="#*Processing the Data.*">*Processing the Data.*</a>
-- [ ] <a href="#Modeling and tuning the model.">Modeling and tuning the model.</a>
+- [ ] *Scrapping the Data*
+- [ ] *Processing the Data.*
+- [ ] *Modeling and tuning the model.*
 - [ ] *Deploy the model.*
 
 
