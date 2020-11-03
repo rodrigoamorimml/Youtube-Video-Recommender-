@@ -1,4 +1,4 @@
-# Youtube Video Recommender 
+<h1 align="center">Youtube Video Recommender</h1>
  
 #### The project consist of a video recommender from youtube where using a certain number of key words the model search for this videos and ranks the 30 most high score videos using an ensemble of two machine learning models.
 
@@ -6,7 +6,7 @@ The final result can be see it at: [Youtube Video Recommender](https://powerful-
 
 
 The project can be divided in four steps:
-- [ ] *Scrapping the Data.*
+- [ ]  <a href="#*Scrapping the Data*">*Scrapping the Data*</a>
 - [ ] *Processing the Data.*
 - [ ] *Modeling and tuning the model.*
 - [ ] *Deploy the model.*
