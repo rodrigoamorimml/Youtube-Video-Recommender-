@@ -39,6 +39,6 @@ The next step  consist in modeling the model, in other words,  try some differen
 ### *Deploying the model.*
 
 
-In this section, it takes the model already trained and deploy to the internet, for this task it was used two things, the [heroku](https://dashboard.heroku.com/apps) that is a cloud plataform as a service (PaaS) where we can upload the project to the internet and the Docker, docker is  a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers, in other words, we use the container to create a image with the specifics configurations where can be upload to the web via the heroku. All the files need it'ss on the folder called Deploy.
+In this section, it takes the model already trained and deploy to the internet, for this task it was used two things, the *Heroku* that is a cloud plataform as a service (PaaS) where we can upload the project to the internet and the *Docker*, docker is  a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers, in other words, we use the container to create a image with the specifics configurations where can be upload to the web via the heroku. All the files need it'ss on the folder called Deploy.
 
 
