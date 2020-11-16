@@ -11,7 +11,7 @@ The project can be divided in four steps:
 - [ ] *Scrapping the Data*
 - [ ] *Processing the Data.*
 - [ ] *Modeling and tuning the model.*
-- [ ] *Deploy the model.*
+- [ ] *Deploying the model.*
 
 
 
@@ -35,5 +35,10 @@ To upgrade the model was used the title was a features using a bag-of-words mode
 The next step  consist in modeling the model, in other words,  try some differents machine learning algorithms and feature extraction to upgrade the metrics. After testing some machine learning models and some hyperparameters, using a random search for the hyperparameters to improve the metrics, the final project was set as: an ensemble of two types of models, a Random Forest Classifier and a LGBM(Light Gradient Boosting Machine) Classifier, with this two models was used a 50% participation for each model in the ensemble, this configuration scored best than any of this two models solo. The notebook with the code can be see at: [Data Modeling](https://github.com/rodrigoamorimml/Youtube-Video-Recommender-/blob/main/Data%20Modeling.ipynb)
 
 
+
+### *Deploying the model.*
+
+
+In this section, it takes the model already trained and deploy to the internet, for this task it was used two things, the [heroku](https://dashboard.heroku.com/apps) that is a cloud plataform as a service (PaaS) where we can upload the project to the internet and the Docker, docker is  a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers, in other words, we use the container to create a image with the specifics configurations where can be upload to the web via the heroku. All the files need it'ss on the folder called Deploy.
 
 
